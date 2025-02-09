@@ -1,5 +1,5 @@
 streamlit
-tensorflow==2.16.0
+tensorflow
 pillow
 numpy==1.23.5
 rich==13.5.2
