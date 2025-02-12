@@ -7,8 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1wHm3XI-z14loiKcMbWGfPDSTXDJIHRcH
 """
 
-# Import Libraries
-pip3 install matplotlib
+
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
