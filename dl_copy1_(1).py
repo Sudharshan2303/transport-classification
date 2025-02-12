@@ -145,5 +145,3 @@ if uploaded_file is not None:
     # Show results
     st.markdown(f"### **Prediction: {prediction}**")
     st.markdown(f"### **Confidence: {confidence:.2f}**")
-
-!jupyter nbconvert --to script dl-Copy1.ipynb
