@@ -25,14 +25,14 @@ train_datagen = ImageDataGenerator(
 test_datagen = ImageDataGenerator(rescale=1./255)
 
 train_set = train_datagen.flow_from_directory(
-    r"C:\Users\HP\Downloads\archive\dataset\train",  # Replace with your training data path
+    "C:/Users/HP/Downloads/archive/dataset/train",  # Replace with your training data path
     target_size=(224, 224),  # Resize images to match MobileNet input
     batch_size=32,
     class_mode='binary'  # Binary classification
 )
 
 test_set = test_datagen.flow_from_directory(
-    r"C:\Users\HP\Downloads\archive\dataset\test",  # Replace with your test data path
+    "C:/Users/HP/Downloads/archive/dataset/test",  # Replace with your test data path
     target_size=(224, 224),
     batch_size=32,
     class_mode='binary'
